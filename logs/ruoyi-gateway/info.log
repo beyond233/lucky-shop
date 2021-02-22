@@ -1,0 +1,25 @@
+23:32:50.826 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.6.Final
+23:32:51.321 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,212] - LOCAL_SNAPSHOT_PATH:C:\Users\BEYOND\nacos\config
+23:32:51.344 [main] INFO  c.a.n.c.c.i.Limiter - [<clinit>,54] - limitTime:5.0
+23:33:00.375 [main] INFO  c.b.LuckyGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+23:33:01.067 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:33:01.070 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:33:01.986 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayFilter,144] - [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648
+23:33:02.130 [main] INFO  c.a.n.client.naming - [call,65] - initializer namespace from System Property :null
+23:33:02.131 [main] INFO  c.a.n.client.naming - [call,74] - initializer namespace from System Environment :null
+23:33:02.131 [main] INFO  c.a.n.client.naming - [call,84] - initializer namespace from System Property :null
+23:33:02.463 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayBlockExceptionHandler,134] - [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler
+23:33:09.592 [main] INFO  c.a.n.client.naming - [addBeatInfo,81] - [BEAT] adding beat: BeatInfo{port=8080, ip='192.168.1.5', weight=1.0, serviceName='DEFAULT_GROUP@@lucky-gateway', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+23:33:09.593 [main] INFO  c.a.n.client.naming - [registerService,230] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@lucky-gateway with instance: Instance{instanceId='null', ip='192.168.1.5', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+23:33:15.627 [main] INFO  c.a.n.client.naming - [shutdown,147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+23:33:18.630 [main] INFO  c.a.n.client.naming - [shutdown,149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+23:33:18.630 [main] INFO  c.a.n.client.naming - [shutdown,409] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+23:33:21.634 [main] INFO  c.a.n.client.naming - [shutdown,121] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+23:33:24.636 [main] INFO  c.a.n.client.naming - [shutdown,125] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+23:33:24.636 [main] INFO  c.a.n.client.naming - [shutdown,132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+23:33:24.636 [main] INFO  c.a.n.client.naming - [shutdown,134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+23:33:24.636 [main] INFO  c.a.n.client.naming - [shutdown,414] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+23:33:24.636 [main] INFO  c.a.n.client.naming - [shutdown,719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+23:33:24.637 [main] INFO  c.a.n.c.i.CredentialWatcher - [stop,105] - [null] CredentialWatcher is stopped
+23:33:24.637 [main] INFO  c.a.n.c.i.CredentialService - [free,98] - [null] CredentialService is freed
+23:33:24.637 [main] INFO  c.a.n.client.naming - [shutdown,723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop

@@ -1,0 +1,10 @@
+# Tomcat
+server:
+  port: 8080
+
+# Spring
+spring:
+  application:
+    name: lucky-gateway
+  profiles:
+    active: dev
