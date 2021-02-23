@@ -10,10 +10,11 @@ import org.springframework.stereotype.Component;
  * @author beyond233
  * @since 2021/2/23 0:14
  */
+@SuppressWarnings(value = { "unchecked", "rawtypes" })
 @Component
 public class RedisService {
 
     @Autowired
-    private RedisTemplate redisTemplate;
+    public RedisTemplate redisTemplate;
 
 }
